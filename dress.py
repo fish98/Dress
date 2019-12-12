@@ -5,7 +5,7 @@ import datetime
 import time
 from selenium.webdriver.chrome.options import Options
 
-def login(url):
+def start(url):
 
     driver.get(url)
     driver.implicitly_wait(10)
@@ -65,15 +65,19 @@ def buy(buy_time, url):
 
 if __name__ == "__main__":
     # 'https://detail.tmall.hk/hk/item.htm?tbpm=1&spm=a230r.1.14.1.13274fd0N9LZEy&id=45361707245&ns=1&abbucket=7&skuId=3164503563109'
+    
     url = input("Please Enter Product Url:\n")
     buyDay = input("\nPlease Enter the DUE DATE:\n (For example `2019-12-12`)\n")
     buyTime = input("\nPlease Enter the DUE TIME:\n (For example `08:00:00`)\n")
     bt = buyDay + " " + buyTime
+    
     bt_dt = datetime.datetime.strptime(bt, '%Y-%m-%d %H:%M:%S')
     now_dt = datetime.datetime.now()
+    
     print("There are %.1f miniutes before CHONG CHONG CHONG"%((bt_dt-now_dt).seconds/60))
     input("Press any key to start...") 
     print("Starting ...")
+    
     chrome_options = Options()
     #chrome_options.add_argument('--headless')
     chrome_options.add_argument('--no-sandbox')
@@ -81,5 +85,5 @@ if __name__ == "__main__":
     driver = webdriver.Chrome('./chromedriver.exe', chrome_options=chrome_options) 
     driver.maximize_window()
 
-    login(url)
+    start(url)
     buy(bt, url)
