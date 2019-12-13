@@ -1,20 +1,20 @@
 # Optimized Taobao Shopping Tool
         
-Run dress.py and follow the insturction to buy limited products on Taobao or Tmall.
+Run dress.py and follow the insturctions to buy limited products on Taobao or Tmall.
 
-# Installation
+## Installation
 
 Clone this project and run src/dress.py by your self.
 (Working on publishing on PYPI ing...)
 
-# Prerequisite
+## Prerequisite
 
 1. You have a browser called Chrome.
 2. You have downloaded the **SAME VERSION** of chromedriver and **SET IT IN YOUR PATH** 
 3. The second prerequisite is really really IMPORTANT!!
 4. Have a smooth wifi connnection.
 
-# Quick Start
+## Quick Start
 
 1. Run 
 ```bash
@@ -31,7 +31,7 @@ $ python src/dress.py
 **REMEMBER** You have to do this yourself or the program will not respose to the due time snap up.
 8. Waiting for the right time to come...
 
-# License
+## License
 
 Dress is released under a [WTFPL](LICENSE) License
 
