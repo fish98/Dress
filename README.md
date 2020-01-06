@@ -2,6 +2,16 @@
         
 Run dress.py and follow the insturction to buy limited products on Taobao or Tmall.
 
+# TODO
+
+For Mr.QQP Senpai
+
+New python codes using postman package method instead of monitoring chrome web page. 
+
+Considering using package `get`/`request`
+
+Complement details would be added after Jan.17th  
+
 # Installation
 
 Clone this project and run src/dress.py by your self.
