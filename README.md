@@ -2,7 +2,6 @@
         
 Run dress.py and follow the insturctions to buy limited products on Taobao or Tmall.
 
-<<<<<<< HEAD
 # TODO
 
 For Mr.QQP Senpai
@@ -14,9 +13,6 @@ Considering using package `get`/`request`
 Complement details would be added after Jan.17th  
 
 # Installation
-=======
-## Installation
->>>>>>> 7acf79bf70e6f27d5a6ad16cfb24f78ae39dbb63
 
 Clone this project and run src/dress.py by your self.
 (Working on publishing on PYPI ing...)
