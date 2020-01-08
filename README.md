@@ -6,11 +6,15 @@ Run dress.py and follow the insturctions to buy limited products on Taobao or Tm
 
 For Mr.QQP Senpai
 
-New python codes using postman package method instead of monitoring chrome web page. 
+Rewrite dress.py with python package [pyppeteer](https://github.com/miyakogi/pyppeteer)!!
 
-Considering using package `get`/`request`
+頑張ってね！
 
-Complement details would be added after Jan.17th  
+<s>New python codes using postman package method instead of monitoring chrome web page. </s>
+
+<s>Considering using package `get`/`request`</s>
+
+<s>Complement details would be added after Jan.17th  </s>
 
 # Installation
 
